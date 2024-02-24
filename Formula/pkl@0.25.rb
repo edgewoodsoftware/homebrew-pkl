@@ -1,7 +1,7 @@
 class PklAT025 < Formula
   desc "Command-line interface for Pkl"
   homepage "https://github.com/apple/pkl"
-  version "0.25.2"
+  version "0.25"
 
   if Hardware::CPU.intel?
     url "https://github.com/apple/pkl/releases/download/0.25.2/pkl-macos-amd64"
