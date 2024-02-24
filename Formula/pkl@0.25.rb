@@ -1,4 +1,4 @@
-class Pkl < Formula
+class PklAT025 < Formula
   desc "Command-line interface for Pkl"
   homepage "https://github.com/apple/pkl"
   version "0.25.2"
