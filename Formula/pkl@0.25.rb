@@ -12,6 +12,11 @@ class PklAT025 < Formula
   end
 
   def install
+    if Hardware::CPU.intel?
+      mv "pkl-macos-amd64", "pkl"
+    elsif Hardware::CPU.arm?
+      mv "pkl-macos-aarch64", "pkl"
+    end
     bin.install "pkl"
   end
 
